@@ -43,3 +43,8 @@ git checkout develop
 git merge your-branch-name
 git push
 ```
+### Deployment
+
+Deployment must follow merging rules:
+
+***develop***  ➡️  ***staging***  ➡️ ***main*** 
