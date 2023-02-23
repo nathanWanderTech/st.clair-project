@@ -5,3 +5,25 @@
 
 html {
   scroll-behavior: smooth; }
+
+@font-face {
+  font-family: "DigitalOasisFrame";
+  src: local("DigitalOasisFrame"), url(../../assets/fonts/DigitalOasisFrame.ttf) format("truetype"); }
+@font-face {
+  font-family: "DigitalOasisFrameBack";
+  src: local("DigitalOasisFrameBack"), url(../../assets/fonts/DigitalOasisFrameBack.ttf) format("truetype"); }
+@font-face {
+  font-family: "DigitalOasisFrameFront";
+  src: local("DigitalOasisFrameFront"), url(../../assets/fonts/DigitalOasisFrameFront.ttf) format("truetype"); }
+@font-face {
+  font-family: "DigitalOasisOutline";
+  src: local("DigitalOasisOutline"), url(../../assets/fonts/DigitalOasisOutline.ttf) format("truetype"); }
+@font-face {
+  font-family: "DigitalOasisOutliner";
+  src: local("DigitalOasisOutliner"), url(../../assets/fonts/DigitalOasisOutliner.ttf) format("truetype"); }
+@font-face {
+  font-family: "DigitalOasisShadow";
+  src: local("DigitalOasisShadow"), url(../../assets/fonts/DigitalOasisShadow.ttf) format("truetype"); }
+@font-face {
+  font-family: "DigitalOasisTypeface";
+  src: local("DigitalOasisTypeface"), url(../../assets/fonts/DigitalOasisTypeface.ttf) format("truetype"); }
