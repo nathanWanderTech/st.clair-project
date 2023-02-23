@@ -27,3 +27,6 @@ html {
 @font-face {
   font-family: "DigitalOasisTypeface";
   src: local("DigitalOasisTypeface"), url(../../assets/fonts/DigitalOasisTypeface.ttf) format("truetype"); }
+/* COLOR */
+h1 {
+  color: #800080; }
