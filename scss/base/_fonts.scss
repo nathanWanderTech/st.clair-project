@@ -1,49 +1,42 @@
 @font-face {
-  font-family: "DigitalOasisFrame";
-  src: local("DigitalOasisFrame"),
-    url(../../assets/fonts/DigitalOasisFrame.ttf) format("truetype");
+	font-family: 'DigitalOasisFrame';
+	src: local('DigitalOasisFrame'), url(../../assets/fonts/DigitalOasisFrame.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: "DigitalOasisFrameBack";
-  src: local("DigitalOasisFrameBack"),
-    url(../../assets/fonts/DigitalOasisFrameBack.ttf) format("truetype");
+	font-family: 'DigitalOasisFrameBack';
+	src: local('DigitalOasisFrameBack'), url(../../assets/fonts/DigitalOasisFrameBack.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: "DigitalOasisFrameFront";
-  src: local("DigitalOasisFrameFront"),
-    url(../../assets/fonts/DigitalOasisFrameFront.ttf) format("truetype");
+	font-family: 'DigitalOasisFrameFront';
+	src: local('DigitalOasisFrameFront'), url(../../assets/fonts/DigitalOasisFrameFront.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: "DigitalOasisOutline";
-  src: local("DigitalOasisOutline"),
-    url(../../assets/fonts/DigitalOasisOutline.ttf) format("truetype");
+	font-family: 'DigitalOasisOutline';
+	src: local('DigitalOasisOutline'), url(../../assets/fonts/DigitalOasisOutline.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: "DigitalOasisOutliner";
-  src: local("DigitalOasisOutliner"),
-    url(../../assets/fonts/DigitalOasisOutliner.ttf) format("truetype");
+	font-family: 'DigitalOasisOutliner';
+	src: local('DigitalOasisOutliner'), url(../../assets/fonts/DigitalOasisOutliner.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: "DigitalOasisShadow";
-  src: local("DigitalOasisShadow"),
-    url(../../assets/fonts/DigitalOasisShadow.ttf) format("truetype");
+	font-family: 'DigitalOasisShadow';
+	src: local('DigitalOasisShadow'), url(../../assets/fonts/DigitalOasisShadow.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: "DigitalOasisTypeface";
-  src: local("DigitalOasisTypeface"),
-    url(../../assets/fonts/DigitalOasisTypeface.ttf) format("truetype");
+	font-family: 'DigitalOasisTypeface';
+	src: local('DigitalOasisTypeface'), url(../../assets/fonts/DigitalOasisTypeface.ttf) format('truetype');
 }
 
-$digitalOasisFrame: "DigitalOasisFrame", Courier, monospace;
-$digitalOasisFrameBack: "digitalOasisFrameBack", Courier, monospace;
-$digitalOasisFrameFront: "digitalOasisFrameFront", Courier, monospace;
-$digitalOasisOutline: "digitalOasisOutline", Courier, monospace;
-$digitalOasisOutliner: "digitalOasisOutliner", Courier, monospace;
-$digitalOasisShadow: "digitalOasisShadow", Courier, monospace;
-$digitalOasisTypeface: "digitalOasisTypeface", Courier, monospace;
+$digitalOasisFrame: 'DigitalOasisFrame', Courier, monospace;
+$digitalOasisFrameBack: 'digitalOasisFrameBack', Courier, monospace;
+$digitalOasisFrameFront: 'digitalOasisFrameFront', Courier, monospace;
+$digitalOasisOutline: 'digitalOasisOutline', Courier, monospace;
+$digitalOasisOutliner: 'digitalOasisOutliner', Courier, monospace;
+$digitalOasisShadow: 'digitalOasisShadow', Courier, monospace;
+$digitalOasisTypeface: 'digitalOasisTypeface', Courier, monospace;
