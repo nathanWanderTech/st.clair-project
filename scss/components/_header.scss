@@ -1,0 +1,93 @@
+$fixedPaddingTop: 20px;
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 14px;
+	padding-right: 10%;
+
+	.logos {
+		display: flex;
+
+		img[alt='logo'] {
+			width: 80px;
+			@media screen and (min-width: $xl) {
+				width: 142px;
+			}
+		}
+		img[alt='digital_oasis'] {
+			@media screen and (min-width: $xl) {
+				width: 243px;
+				margin-left: 40px;
+			}
+			margin-left: 18px;
+			width: 171px;
+		}
+
+		> div {
+			display: flex;
+			align-items: center;
+			padding-top: $fixedPaddingTop;
+		}
+	}
+}
+
+nav {
+	display: none;
+	ul {
+		padding-top: $fixedPaddingTop;
+		display: flex;
+		li {
+			&:not(:last-child) {
+				margin-right: 26px;
+			}
+			a {
+				font-family: $generalFont;
+				font-size: 20px;
+				line-height: 33px;
+				color: $mainPurple;
+			}
+		}
+	}
+
+	@media screen and (min-width: $lg) {
+		display: flex;
+		align-items: center;
+	}
+}
+
+.bottom-lines {
+	transform: translateY(-8px);
+	.line {
+		width: 100%;
+		&:nth-child(odd) {
+			background-color: $mainPurple;
+		}
+		&:nth-child(1) {
+			height: 18px;
+		}
+		&:nth-child(2) {
+			background-color: $mainOrange;
+			height: 5px;
+		}
+		&:nth-child(3) {
+			height: 13px;
+		}
+		&:nth-child(4) {
+			background-color: $mainOrange;
+			height: 8px;
+		}
+		&:nth-child(5) {
+			height: 7px;
+		}
+		&:nth-child(6) {
+			height: 9px;
+		}
+		&:nth-child(7) {
+			height: 5px;
+		}
+	}
+	@media screen and (min-width: $xl) {
+		transform: translateY(-14px);
+	}
+}

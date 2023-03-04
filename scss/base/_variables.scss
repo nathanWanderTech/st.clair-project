@@ -4,8 +4,7 @@ $mainPurple: #800080;
 $lightPurple: #a02c89;
 $mainOrange: #ff6600;
 $medOrange: #ff9955;
-$lightOrange: #ffe6d5;
-$lightOrange: #ffe6d5;
+$lightestOrange: #ffe6d5;
 $gray1: #cccccc;
 $gray2: #c7c9c7;
 $black: #000000;
@@ -20,3 +19,10 @@ $digitalOasisOutliner: 'digitalOasisOutliner', Courier, monospace;
 $digitalOasisShadow: 'digitalOasisShadow', Courier, monospace;
 $digitalOasisTypeface: 'digitalOasisTypeface', Courier, monospace;
 $generalFont: 'Anek Kannada';
+
+/* RESPONSIVE */
+$sm: 576px; // ≥ 576px
+$md: 768px; // ≥ 768px
+$lg: 992px; // ≥ 992px
+$xl: 1200px; // ≥ 1200px
+$xxl: 1400px; // ≥ 1400px
