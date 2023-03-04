@@ -7,26 +7,76 @@ html {
   scroll-behavior: smooth; }
 
 @font-face {
-  font-family: "DigitalOasisFrame";
+  font-family: 'DigitalOasisFrame';
   src: local("DigitalOasisFrame"), url(../../assets/fonts/DigitalOasisFrame.ttf) format("truetype"); }
 @font-face {
-  font-family: "DigitalOasisFrameBack";
+  font-family: 'DigitalOasisFrameBack';
   src: local("DigitalOasisFrameBack"), url(../../assets/fonts/DigitalOasisFrameBack.ttf) format("truetype"); }
 @font-face {
-  font-family: "DigitalOasisFrameFront";
+  font-family: 'DigitalOasisFrameFront';
   src: local("DigitalOasisFrameFront"), url(../../assets/fonts/DigitalOasisFrameFront.ttf) format("truetype"); }
 @font-face {
-  font-family: "DigitalOasisOutline";
+  font-family: 'DigitalOasisOutline';
   src: local("DigitalOasisOutline"), url(../../assets/fonts/DigitalOasisOutline.ttf) format("truetype"); }
 @font-face {
-  font-family: "DigitalOasisOutliner";
+  font-family: 'DigitalOasisOutliner';
   src: local("DigitalOasisOutliner"), url(../../assets/fonts/DigitalOasisOutliner.ttf) format("truetype"); }
 @font-face {
-  font-family: "DigitalOasisShadow";
+  font-family: 'DigitalOasisShadow';
   src: local("DigitalOasisShadow"), url(../../assets/fonts/DigitalOasisShadow.ttf) format("truetype"); }
 @font-face {
-  font-family: "DigitalOasisTypeface";
+  font-family: 'DigitalOasisTypeface';
   src: local("DigitalOasisTypeface"), url(../../assets/fonts/DigitalOasisTypeface.ttf) format("truetype"); }
 /* COLOR */
-h1 {
-  color: #800080; }
+/* FONT */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #800080;
+  font-family: "digitalOasisTypeface", Courier, monospace; }
+
+p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #000000;
+  font-family: "Anek Kannada"; }
+
+[class*='heading'] {
+  font-family: "digitalOasisTypeface", Courier, monospace;
+  font-style: normal;
+  color: #800080;
+  letter-spacing: 2px; }
+
+.heading-1 {
+  font-size: 42px;
+  font-weight: 400; }
+
+.heading-2 {
+  font-size: 29px;
+  font-weight: 400; }
+
+.heading-3 {
+  font-size: 20px;
+  font-weight: 700; }
+
+.sub-text {
+  font-size: 12px;
+  font-weight: 400; }
+
+/*
+* Utilities CSS - inspired by Tailwind CSS
+*/
+.text-white {
+  color: #ffffff; }
+
+.text-black {
+  color: #000000; }
+
+.text-med-orange {
+  color: #ff9955; }
+
+.uppercase {
+  text-transform: uppercase; }
