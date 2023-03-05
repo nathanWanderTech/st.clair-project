@@ -1,0 +1,49 @@
+.vote-section {
+	@include polygon-header-and-title(284px, -5px);
+}
+
+.vote-body {
+	display: flex;
+	gap: 2rem;
+	justify-content: space-between;
+
+	.left-col {
+		max-width: 390px;
+	}
+
+	.right-col {
+		span {
+			display: inline-block;
+			transform: translateY(7px);
+		}
+
+		ul {
+			margin-top: 10px;
+			list-style-type: disc;
+			padding-left: 30px;
+			li {
+				&:first-of-type {
+					margin-bottom: 10px;
+				}
+				&:last-of-type {
+					margin-bottom: 20px;
+				}
+			}
+		}
+	}
+}
+
+.vote-actions {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+img[alt='Winner 2022'] {
+	width: 110px;
+	margin-left: 35px;
+}
+
+img[alt='QR code'] {
+	width: 120px;
+}
