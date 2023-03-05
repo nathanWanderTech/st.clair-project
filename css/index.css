@@ -46,11 +46,12 @@ h5 {
   font-family: "digitalOasisTypeface", Courier, monospace; }
 
 p {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 25px;
   color: #000000;
-  font-family: "Anek Kannada"; }
+  font-family: "Anek Kannada";
+  font-style: normal; }
 
 i {
   color: #ffe6d5; }
@@ -94,6 +95,39 @@ i {
 
 .bg-primary {
   background-color: #ff6600; }
+
+.flex-absolute-center {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.container {
+  padding-left: 100px;
+  padding-right: 100px; }
+
+.two-cols-layout {
+  display: grid;
+  grid-template-columns: repeat(24, 1fr);
+  gap: 10px; }
+
+.left-col {
+  grid-column: 1 / span 18; }
+
+.right-col {
+  grid-column: 19 / span 6; }
+
+/* SECTION HEADER AND TITLE */
+.primary-cta {
+  padding: 13px 28px;
+  background: #ff6600;
+  border: 1px solid #ff6600;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Anek Kannada";
+  letter-spacing: 1px;
+  cursor: pointer;
+  display: inline-block; }
 
 .header {
   display: flex;
@@ -161,3 +195,57 @@ nav {
   @media screen and (min-width: 1200px) {
     .bottom-lines {
       transform: translateY(-14px); } }
+
+.vote-section .polygon-header {
+  position: relative; }
+  .vote-section .polygon-header .header-and-title {
+    position: relative;
+    z-index: 10;
+    background: #ffffff;
+    padding: 0 5px; }
+    .vote-section .polygon-header .header-and-title .title {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 50px;
+      width: 284px;
+      text-align: center;
+      padding-top: 6px; }
+  .vote-section .polygon-header::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #d9d9d9;
+    top: 50%;
+    transform: translateY(-5px); }
+
+.vote-body {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between; }
+  .vote-body .left-col {
+    max-width: 390px; }
+  .vote-body .right-col span {
+    display: inline-block;
+    transform: translateY(7px); }
+  .vote-body .right-col ul {
+    margin-top: 10px;
+    list-style-type: disc;
+    padding-left: 30px; }
+    .vote-body .right-col ul li:first-of-type {
+      margin-bottom: 10px; }
+    .vote-body .right-col ul li:last-of-type {
+      margin-bottom: 20px; }
+
+.vote-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+img[alt='Winner 2022'] {
+  width: 110px;
+  margin-left: 35px; }
+
+img[alt='QR code'] {
+  width: 120px; }

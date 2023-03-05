@@ -21,3 +21,9 @@
 .bg-primary {
 	background-color: $mainOrange;
 }
+
+.flex-absolute-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
