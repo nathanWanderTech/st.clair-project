@@ -17,6 +17,10 @@
 	grid-column: 19 / span 6;
 }
 
+.horizon-divider {
+	margin-top: 1.5rem;
+}
+
 /* SECTION HEADER AND TITLE */
 
 @mixin lines-before-after-polygon($translateY) {
