@@ -276,3 +276,44 @@ img[alt='QR code'] {
     background-color: #d9d9d9;
     top: 50%;
     transform: translateY(-5px); }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.footer-container {
+  background-color: #ed0ccf;
+  padding-bottom: 4rem; }
+
+.footer {
+  width: 100%;
+  height: 40%;
+  background-color: #ed0ccf;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: auto; }
+
+.footer-heading {
+  display: flex;
+  flex-direction: column;
+  margin: 4rem; }
+
+.footer-heading h2 {
+  margin-bottom: 2rem;
+  color: #ffffff;
+  font-family: Arial, Helvetica, Sans-seriff; }
+
+.footer-heading a {
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+  font-family: Arial, Helvetica, Sans-seriff; }
+
+h3 {
+  padding: 15px 0;
+  text-align: center;
+  font-family: Arial, Helvetica, Sans-seriff;
+  color: #ffffff; }
