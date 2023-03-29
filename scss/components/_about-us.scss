@@ -1,3 +1,47 @@
 .about-us-section {
 	@include polygon-header-and-title(284px, -5px);
 }
+
+#about-us-frame {
+	width: 100%;
+	position: relative;
+	img[alt='frame-1'] {
+		width: 100%;
+	}
+
+	.photo {
+		position: absolute;
+		top: -2%;
+		left: 5%;
+		transform: rotate(-10deg);
+		padding: 10px;
+	}
+
+	.paragraph {
+		position: absolute;
+		top: 30%;
+		right: 8%;
+		width: 51%;
+		p {
+			color: $white;
+		}
+	}
+
+	.inner {
+		position: relative;
+		img[alt='about-us'] {
+			width: 27%;
+		}
+		img[alt='frame-1a'] {
+			left: -1%;
+			top: -3%;
+			position: absolute;
+			transform: rotate(9deg);
+		}
+		img[alt='frame-1b'] {
+			position: absolute;
+			bottom: 1%;
+			transform: rotate(23deg);
+		}
+	}
+}

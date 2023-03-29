@@ -276,3 +276,25 @@ img[alt='QR code'] {
     background-color: #d9d9d9;
     top: 50%;
     transform: translateY(-5px); }
+
+#about-us-frame {
+  width: 100%;
+  position: relative; }
+  #about-us-frame img[alt='frame-1'] {
+    width: 100%; }
+  #about-us-frame .photo {
+    position: absolute;
+    top: 38px;
+    left: 46px;
+    transform: rotate(-10deg);
+    width: 222px;
+    height: 295px;
+    padding: 10px; }
+    #about-us-frame .photo img {
+      width: 100%;
+      height: 100%; }
+  #about-us-frame .paragraph {
+    position: absolute;
+    top: 30%;
+    right: 8%;
+    max-width: 455px; }
