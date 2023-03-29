@@ -391,4 +391,61 @@ img[alt="QR code"] {
   position: absolute;
   bottom: 1%;
   transform: rotate(23deg);
+}
+
+footer {
+  background-color: #800080;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+footer * {
+  font-family: "Anek Kannada";
+  color: white;
+}
+footer h5 {
+  font-size: 18px;
+  margin-bottom: 2rem;
+}
+footer p {
+  padding-bottom: 10px;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 74px 200px;
+}
+footer .contact-block ul {
+  display: flex;
+  margin-top: 1rem;
+}
+footer .contact-block ul li {
+  margin-right: 1.7rem;
+  font-size: 1.2rem;
+}
+footer .contact-block ul li a i {
+  color: #ffe6d5;
+}
+footer .bottom-nav ul li {
+  padding-bottom: 1rem;
+}
+footer #copyright {
+  padding: 23px 0;
+  text-align: center;
+  background-color: #a02c89;
+  font-family: "Inter";
+  letter-spacing: 0.5px;
+}
+@media only screen and (max-width: 768px) {
+  footer .container {
+    padding: 20px 80px;
+    flex-direction: column;
+  }
+  footer h5 {
+    margin-bottom: 1rem;
+  }
+  footer .hours-block h5,
+  footer .bottom-nav h5 {
+    margin-top: 2.5rem;
+  }
 }/*# sourceMappingURL=index.css.map */
