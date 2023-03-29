@@ -1,0 +1,82 @@
+#products-services {
+	@include polygon-header-and-title(439px, -5px);
+
+	.block {
+		margin-top: 3rem;
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+
+	.card {
+		margin-top: 2rem;
+		width: 273px;
+		background: $mainPurple;
+		color: $white;
+		font-family: $generalFont;
+		position: relative;
+		img {
+			position: absolute;
+			left: -23px;
+			top: -25px;
+		}
+		.header {
+			text-transform: uppercase;
+			font-weight: 700;
+			font-size: 20px;
+			color: $medOrange;
+			padding-left: 44px;
+			padding-top: 0.8rem;
+			position: relative;
+			&::after {
+				content: '';
+				position: absolute;
+				display: block;
+				right: 0;
+				top: 0;
+				width: 50%;
+				height: 20px;
+				background-color: $white;
+				transform-origin: bottom left;
+				-ms-transform: skew(43deg, 0deg);
+				-webkit-transform: skew(43deg, 0deg);
+				transform: skew(43deg, 0deg);
+			}
+			&::before {
+				content: '';
+				position: absolute;
+				display: block;
+				right: 0;
+				top: 0;
+				background-color: $white;
+				width: 25%;
+				height: 20px;
+			}
+		}
+
+		.body {
+			padding: 1rem;
+			height: 122px;
+			line-height: 20px;
+		}
+
+		.bottom {
+			height: 70px;
+			position: relative;
+			&::after {
+				content: '';
+				position: absolute;
+				display: block;
+				left: 0;
+				bottom: 0;
+				width: 70%;
+				height: 10px;
+				background-color: $white;
+				transform-origin: bottom left;
+				-ms-transform: skew(50deg, 0deg);
+				-webkit-transform: skew(50deg, 0deg);
+				transform: skew(50deg, 0deg);
+			}
+		}
+	}
+}
