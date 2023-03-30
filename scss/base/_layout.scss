@@ -50,7 +50,7 @@
 				height: 50px;
 				width: $titleWidth;
 				text-align: center;
-				padding-top: 6px;
+				padding-top: 10px;
 			}
 		}
 		@include lines-before-after-polygon($translateY);

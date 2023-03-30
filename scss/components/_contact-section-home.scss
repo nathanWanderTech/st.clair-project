@@ -1,0 +1,51 @@
+#contact-section {
+	@include polygon-header-and-title(284px, -5px);
+
+	width: 80%;
+	max-width: 2000px;
+	margin: 0 auto;
+
+	.content {
+		padding-top: 53px;
+		display: flex;
+		gap: 2rem;
+		justify-content: space-around;
+		* {
+			color: $black;
+		}
+		h5 {
+			font-family: $generalFont;
+			font-style: normal;
+			font-weight: 700;
+			line-height: 200%;
+			font-size: 15px;
+			padding-bottom: 1rem;
+		}
+	}
+
+	.location-block {
+		width: 30%;
+		text-align: right;
+
+		ul {
+			margin-top: 0.7rem;
+			display: flex;
+			justify-content: flex-end;
+			li {
+				padding-left: 23px;
+			}
+			li a i {
+				font-size: 1.2rem;
+				color: $lightPurple;
+			}
+		}
+	}
+
+	.map-block {
+		width: 40%;
+	}
+
+	.hours-block {
+		width: 30%;
+	}
+}

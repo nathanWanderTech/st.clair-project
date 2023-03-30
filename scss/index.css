@@ -273,7 +273,7 @@ nav ul li a {
   height: 50px;
   width: 284px;
   text-align: center;
-  padding-top: 6px;
+  padding-top: 10px;
 }
 .vote-section .polygon-header::after {
   content: "";
@@ -340,7 +340,7 @@ img[alt="QR code"] {
   height: 50px;
   width: 284px;
   text-align: center;
-  padding-top: 6px;
+  padding-top: 10px;
 }
 .about-us-section .polygon-header::after {
   content: "";
@@ -409,7 +409,7 @@ img[alt="QR code"] {
   height: 50px;
   width: 439px;
   text-align: center;
-  padding-top: 6px;
+  padding-top: 10px;
 }
 #products-services .polygon-header::after {
   content: "";
@@ -490,6 +490,78 @@ img[alt="QR code"] {
   background-color: #ffffff;
   transform-origin: bottom left;
   transform: skew(50deg, 0deg);
+}
+
+#contact-section {
+  width: 80%;
+  max-width: 2000px;
+  margin: 0 auto;
+}
+#contact-section .polygon-header {
+  position: relative;
+}
+#contact-section .polygon-header .header-and-title {
+  position: relative;
+  z-index: 10;
+  background: #ffffff;
+  padding: 0 5px;
+}
+#contact-section .polygon-header .header-and-title .title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 284px;
+  text-align: center;
+  padding-top: 10px;
+}
+#contact-section .polygon-header::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: #d9d9d9;
+  top: 50%;
+  transform: translateY(-5px);
+}
+#contact-section .content {
+  padding-top: 53px;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-around;
+}
+#contact-section .content * {
+  color: #000000;
+}
+#contact-section .content h5 {
+  font-family: "Anek Kannada";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 200%;
+  font-size: 15px;
+  padding-bottom: 1rem;
+}
+#contact-section .location-block {
+  width: 30%;
+  text-align: right;
+}
+#contact-section .location-block ul {
+  margin-top: 0.7rem;
+  display: flex;
+  justify-content: flex-end;
+}
+#contact-section .location-block ul li {
+  padding-left: 23px;
+}
+#contact-section .location-block ul li a i {
+  font-size: 1.2rem;
+  color: #a02c89;
+}
+#contact-section .map-block {
+  width: 40%;
+}
+#contact-section .hours-block {
+  width: 30%;
 }
 
 footer {
