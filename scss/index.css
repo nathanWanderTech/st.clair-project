@@ -139,6 +139,9 @@ i {
 
 .left-col {
   grid-column: 1/span 18;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
 }
 
 .right-col {
@@ -146,7 +149,7 @@ i {
 }
 
 .horizon-divider {
-  margin-top: 1.5rem;
+  margin-top: 2rem;
 }
 
 /* SECTION HEADER AND TITLE */
