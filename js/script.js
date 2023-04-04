@@ -13,7 +13,6 @@ const ratingsElements = document.querySelectorAll('.ratings');
 const reviewerNameElements = document.querySelectorAll('.reviewer-name');
 const reviewerTitleElements = document.querySelectorAll('.reviewer-title');
 const sliderIndicators = document.querySelectorAll('.slider-indicator');
-console.log('📢[script.js:16]: sliderIndicators: ', sliderIndicators);
 
 const handleShowSelectedReview = (nodesArray, selectedIndicator) => {
 	const indexOfCurrentSelected = selectedIndicator - 1;

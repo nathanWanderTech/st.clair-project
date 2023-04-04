@@ -1,0 +1,34 @@
+#contact-page {
+	@include polygon-header-and-title(284px, -5px);
+	width: 80%;
+	max-width: 2000px;
+	margin: 0 auto;
+	margin-bottom: 182px;
+
+	.top-block {
+		margin-top: 3rem;
+	}
+
+	.contact-item {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+		margin-bottom: 3rem;
+		* {
+			color: $gray5;
+		}
+	}
+
+	.bottom-block {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		gap: 1rem;
+		.left-col > .title {
+			margin-bottom: 2rem;
+		}
+		.right-col {
+			width: 50%;
+		}
+	}
+}
