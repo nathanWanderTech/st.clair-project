@@ -3,15 +3,16 @@
 }
 
 .vote-body {
+	margin-top: 3rem;
 	display: flex;
 	gap: 2rem;
-	justify-content: space-between;
+	justify-content: space-around;
 
-	.left-col {
+	.vote-left-col {
 		max-width: 390px;
 	}
 
-	.right-col {
+	.vote-right-col {
 		span {
 			display: inline-block;
 			transform: translateY(7px);
