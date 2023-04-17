@@ -1,0 +1,24 @@
+#content-404 {
+	text-align: center;
+	margin-top: 3rem;
+	margin-bottom: 7rem;
+	h2,
+	p {
+		font-family: $digitalOasisFrameFront;
+		color: $mainPurple;
+	}
+	h2 {
+		font-size: 84px;
+		line-height: 64px;
+		margin-top: 2rem;
+	}
+	p {
+		font-size: 42px;
+		margin-top: 1rem;
+		margin-bottom: 3rem;
+	}
+
+	img {
+		max-width: 500px;
+	}
+}
