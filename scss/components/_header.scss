@@ -50,6 +50,11 @@ nav {
 		}
 	}
 
+	.nav-active {
+		color: $white;
+		pointer-events: none;
+	}
+
 	@media screen and (min-width: $lg) {
 		display: flex;
 		align-items: center;
